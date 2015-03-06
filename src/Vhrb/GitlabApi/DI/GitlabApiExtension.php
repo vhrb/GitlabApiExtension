@@ -27,13 +27,13 @@ class GitlabApiExtension extends CompilerExtension
 		}
 
 		$builder->addDefinition($this->prefix('client'))
-			->setClass('\Gitlab\Client', [$config['url']])
-			->setAutowired(FALSE)
+			->setClass('Gitlab\Client', [$config['url'] . '/api/v3/'])
+			->setAutowired(TRUE)
 			->addSetup('authenticate', [$config['token']]);
 
 		$builder->addDefinition($this->prefix('ci.client'))
-			->setClass('\GitlabCi\Client', [$config['ci-url']])
-			->setAutowired(FALSE)
+			->setClass('GitlabCi\Client', [$config['ci-url'] . '/api/v1/'])
+			->setAutowired(TRUE)
 			->addSetup('authenticate', [$config['token'], Strings::replace($config['url'], '~(.*/)api/.*~', '\\1'), Client::AUTH_URL_TOKEN]);
 	}
 

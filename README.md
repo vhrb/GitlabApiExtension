@@ -1,9 +1,5 @@
 # Gitlab api extension
 
-[![Downloads this Month](https://img.shields.io/packagist/dm/vhrb/gitlab-api-extension.svg)](https://packagist.org/packages/kdyby/console)
-[![Latest stable](https://img.shields.io/packagist/v/vhrb/gitlab-api-extension.svg)](https://packagist.org/packages/kdyby/console)
-
-
 Requirements
 ------------
 

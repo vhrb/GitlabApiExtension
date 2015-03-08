@@ -31,6 +31,10 @@ class GitlabApiExtension extends CompilerExtension
 			->setAutowired(TRUE)
 			->addSetup('authenticate', [$config['token']]);
 
+		if (empty($config['ci-url'])) {
+			return;
+		}
+
 		$builder->addDefinition($this->prefix('ci.client'))
 			->setClass('GitlabCi\Client', [$config['ci-url'] . '/api/v1/'])
 			->setAutowired(TRUE)

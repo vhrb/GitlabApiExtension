@@ -1,5 +1,5 @@
 {
-	"name": "vhrb/GitlabApiExtension",
+	"name": "vhrb/gitlab-api-extension",
 	"description": "Nette Gitlab API extension",
 	"keywords": [
 		"nette",

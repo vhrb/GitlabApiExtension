@@ -4,11 +4,11 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b93209898f6bd8e131255018edb6e4b9",
+    "hash": "75e82bcbb7b72b0ec81a146115faf76e",
     "packages": [
         {
             "name": "kriswallsmith/buzz",
-            "version": "v0.13",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/Buzz.git",
@@ -163,16 +163,16 @@
         },
         {
             "name": "nette/di",
-            "version": "v2.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/di.git",
-                "reference": "440d9bab1857b34ce6d0c24e023748c012d53686"
+                "reference": "7ddd6d2f1083e3328a3b6591b8441b94dde190d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/di/zipball/440d9bab1857b34ce6d0c24e023748c012d53686",
-                "reference": "440d9bab1857b34ce6d0c24e023748c012d53686",
+                "url": "https://api.github.com/repos/nette/di/zipball/7ddd6d2f1083e3328a3b6591b8441b94dde190d6",
+                "reference": "7ddd6d2f1083e3328a3b6591b8441b94dde190d6",
                 "shasum": ""
             },
             "require": {
@@ -216,11 +216,11 @@
             ],
             "description": "Nette Dependency Injection Component",
             "homepage": "http://nette.org",
-            "time": "2015-02-24 21:31:57"
+            "time": "2015-03-12 15:17:50"
         },
         {
             "name": "nette/neon",
-            "version": "v2.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/neon.git",
@@ -272,7 +272,7 @@
         },
         {
             "name": "nette/php-generator",
-            "version": "v2.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/php-generator.git",
@@ -327,16 +327,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v2.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "29bfb4424689014e0749e14eef8de18c4b0fd020"
+                "reference": "d313999e0fa64c48fe96d44d7d043b6344ee1518"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/29bfb4424689014e0749e14eef8de18c4b0fd020",
-                "reference": "29bfb4424689014e0749e14eef8de18c4b0fd020",
+                "url": "https://api.github.com/repos/nette/utils/zipball/d313999e0fa64c48fe96d44d7d043b6344ee1518",
+                "reference": "d313999e0fa64c48fe96d44d7d043b6344ee1518",
                 "shasum": ""
             },
             "require": {
@@ -383,12 +383,12 @@
             ],
             "description": "Nette Utility Classes",
             "homepage": "http://nette.org",
-            "time": "2015-02-24 21:21:17"
+            "time": "2015-02-26 08:08:08"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "kron0s/php-gitlab-ci-api": 20
     },

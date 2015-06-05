@@ -1,6 +1,6 @@
 <?php
 
-namespace Vhrb\GitlabApi\Di;
+namespace Vhrb\GitlabApi\DI;
 
 use GitlabCi\Client;
 use Nette\DI\CompilerExtension;

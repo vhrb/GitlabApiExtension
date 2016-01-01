@@ -17,10 +17,10 @@
 	"require": {
 		"php": ">=5.3",
 		"nette/di": "~2",
-		"m4tthumphrey/php-gitlab-api": "~7",
+		"m4tthumphrey/php-gitlab-api": "dev-master",
 		"vhrb/php-gitlab-ci-api": "@dev"
 	},
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"require-dev": {
 	},
 	"autoload": {
